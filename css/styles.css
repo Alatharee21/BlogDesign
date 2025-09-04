@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(35, 40, 48, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 48px;
+}
+#navi, #navi-in{
+    display: flex;
+    font-size: smaller;
+}
+#navi{
+    justify-content: space-between;
+}
+#navi-in{
+    gap: 16px;
+}
+#image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head{
+font-size: 71px;
+font-weight: 700;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgba(255, 117, 117, 1);
+}
+
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-top: 0.5px solid rgba(77, 77, 77, 1);
+    padding-top: 8px;
+    padding-right: 48px;
+    padding-left: 48px;
+    color: rgba(144, 144, 144, 1);
+}
+.container{
+    border: 1px solid rgba(37, 41, 48, 1);
+    border-radius: 22px;
+    margin-top: 40px;
+    padding: 24px;
+    color: rgba(15, 18, 23, 1);
+    background-color: white;
+    width: 350px;
+    height: 439px;
+}
+.imgcont{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtext{
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+}
+.hcontainer{
+    display: flex;
+    justify-content: space-between;
+}
