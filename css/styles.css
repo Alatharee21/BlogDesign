@@ -45,6 +45,7 @@ color: rgba(255, 117, 117, 1);
     border: 1px solid rgba(37, 41, 48, 1);
     border-radius: 22px;
     margin-top: 40px;
+    margin-bottom: 40px;
     padding: 24px;
     color: rgba(15, 18, 23, 1);
     background-color: white;
@@ -64,4 +65,16 @@ color: rgba(255, 117, 117, 1);
 .hcontainer{
     display: flex;
     justify-content: space-between;
+}
+
+#buts{
+    display: flex;
+    margin: 0 auto;
+    gap: 16px;
+    width: fit-content;
+    color: #909090;
+}
+#butstxt{
+    display: flex;
+    gap: 8px;
 }
