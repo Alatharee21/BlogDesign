@@ -76,5 +76,37 @@ color: rgba(255, 117, 117, 1);
 }
 #butstxt{
     display: flex;
+    gap: 16px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    border-top: 0.5px solid rgba(77, 77, 77, 1);
+    margin-top: 40px;
+}
+
+.f1st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 8px;
+}
+.f2st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 13px;
+    border-radius: 5px;
+    background-color: #4699E0;
+    color: white;
+}
+button{
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4699E0;
+    color: white;
 }
